@@ -15,4 +15,5 @@ while secret_word != guess and guess_over == False:
     if guess_count >2:
         guess_over = True
         print("You lost the game!")
-print("Correct!")
+if secret_word == guess:
+    print("Correct!")
