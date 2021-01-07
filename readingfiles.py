@@ -1,5 +1,5 @@
 read_file = open("translator.py", "r")
-
-print(read_file.readlines())
+for code in read_file.readlines()
+    print(code)
 
 read_file.close()
