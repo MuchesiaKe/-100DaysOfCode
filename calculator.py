@@ -18,3 +18,6 @@ elif operation == "/":
     print (first_number / second_number)
 else:
     print("Invalid arithmetic symbol!")
+print('This was appended by an external')
+print('This was appended by an external')
+print('This was appended by an external')
