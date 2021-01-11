@@ -17,9 +17,9 @@ questions = [
     ]
 def implementation(questions):
      score = 0
-     for questions in questions:
-         answer = input(questions_prompts)
-         if answer == questions.answer:
+     for question in questions:
+         answer = input(question.prompt)
+         if answer == question.answer:
              score +=1
          else:
             score = score
