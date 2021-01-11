@@ -1,3 +1,4 @@
+#Predefine an array of questions with corresponding answers
 from external_class import employees
 
 employee1 = employees(1, "John Doe", "Planning and Engineering", "Network Administrator")
